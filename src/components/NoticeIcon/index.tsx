@@ -107,7 +107,7 @@ const NoticeIconView: React.FC = () => {
     );
     message.success(`${'清空了'} ${title}`);
   };
-
+  return null;
   return (
     <NoticeIcon
       className={styles.action}

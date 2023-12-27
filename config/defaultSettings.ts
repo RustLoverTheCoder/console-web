@@ -5,17 +5,16 @@ const Settings: LayoutSettings & {
   logo?: string;
 } = {
   navTheme: 'light',
-  // 拂晓蓝
   primaryColor: '#1890ff',
-  layout: 'mix',
+  layout: 'side',
   contentWidth: 'Fluid',
-  fixedHeader: false,
+  title: '数据控制中台',
+  fixedHeader: true,
   fixSiderbar: true,
-  colorWeak: false,
-  title: 'Ant Design Pro',
   pwa: false,
-  logo: 'https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg',
-  iconfontUrl: '',
+  // "logo": "https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg",
+  headerHeight: 48,
+  splitMenus: false,
 };
 
 export default Settings;

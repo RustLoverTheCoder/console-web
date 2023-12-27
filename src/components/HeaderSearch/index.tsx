@@ -47,6 +47,7 @@ const HeaderSearch: React.FC<HeaderSearchProps> = (props) => {
   const inputClass = classNames(styles.input, {
     [styles.show]: searchMode,
   });
+  return null;
   return (
     <div
       className={classNames(className, styles.headerSearch)}
